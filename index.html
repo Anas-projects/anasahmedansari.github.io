@@ -3,74 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Anas Ahmed Ansari – Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: #fff9f9;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-
-    .container {
-      max-width: 700px;
-      margin: 60px auto;
-      padding: 30px;
-      background: white;
-      border-radius: 30px;
-      box-shadow: 0 12px 30px rgba(255, 170, 185, 0.2);
-      transition: transform 0.3s ease;
-    }
-
-    .container:hover {
-      transform: translateY(-5px);
-    }
-
-    img {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 4px solid #ffd6da;
-      box-shadow: 0 6px 20px rgba(255, 138, 149, 0.3);
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      font-size: 2rem;
-      color: #444;
-    }
-
-    p {
-      font-size: 1rem;
-      color: #777;
-      margin-bottom: 30px;
-    }
-
-    .btn {
-      text-decoration: none;
-      background-color: #ff9aa2;
-      color: white;
-      padding: 12px 30px;
-      border-radius: 30px;
-      font-weight: 600;
-      transition: background 0.3s ease;
-      box-shadow: 0 4px 12px rgba(255, 138, 149, 0.3);
-    }
-
-    .btn:hover {
-      background-color: #f67280;
-    }
-  </style>
+  <title>Anas Ahmed Ansari | Cloud Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="container">
-    <img src="profile.jpg" alt="Anas Ahmed Ansari">
+  <header>
     <h1>Anas Ahmed Ansari</h1>
-    <p>TYBMS Student | AWS Cloud & Linux Trainee<br>Dreaming of South Korea 🇰🇷</p>
-    <a class="btn" href="https://github.com/anasahmedansari" target="_blank">🌸 View My GitHub</a>
-  </div>
+    <p>In TYBMS | AWS & Linux @ Heuristic Academy | AWS Cloud Practitioner Certified</p>
+  </header>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>AWS (EC2, VPC, S3, ELB and more)</li>
+      <li>Linux</li>
+      <li>Shell Scripting</li>
+      <li>MySQL</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>1. 3-Tier Deployment</h3>
+      <p>Deployed a 3-tier architecture using EC2, ELB, and VPC in AWS.</p>
+    </div>
+    <div class="project">
+      <h3>2. Node.js App Deployment</h3>
+      <p>Deployed a Node.js application on EC2 with Linux configuration.</p>
+    </div>
+    <div class="project">
+      <h3>3. Multiple Website Hosting</h3>
+      <p>Hosted multiple websites on a Linux server using NGINX.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:anas.ahmed.ansari.65@gmail.com">anas.ahmed.ansari.65@gmail.com</a></p>
+    <p>Phone: <a href="tel:+917021331305">7021331305</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/anas-ahmed-ansari-b42965256" target="_blank">Anas Ahmed Ansari</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Anas Ahmed Ansari</p>
+  </footer>
 </body>
 </html>
