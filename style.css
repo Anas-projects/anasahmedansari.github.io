@@ -1,102 +1,54 @@
-body {
-  font-family: 'Roboto', Arial, sans-serif;
-  margin: 0;
-  background: #f7fafd;
-  color: #24292e;
-}
-nav {
-  background: #222b3a;
-  color: #fff;
-  padding: 1rem 10vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav .logo {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.6em;
-  font-weight: 600;
-  letter-spacing: 2px;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 2em;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 400;
-  letter-spacing: 1px;
-  transition: color 0.2s;
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background: #f8f9fa;
+  color: #333;
 }
-nav ul li a:hover {
-  color: #3bb4f2;
+.container {
+  width: 85%;
+  margin: auto;
+  padding: 20px 0;
 }
-.hero {
+header {
+  background: linear-gradient(120deg, #007bff, #6c63ff);
+  color: white;
+  padding: 60px 0;
   text-align: center;
-  padding: 4em 2em 2em 2em;
-  background: linear-gradient(135deg, #3bb4f2 40%, #222b3a 100%);
-  color: #fff;
 }
-.hero .accent {
-  color: #ffd166;
+header h1 {
+  font-size: 2.8rem;
 }
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
 }
 section {
-  background: #fff;
-  border-radius: 12px;
-  margin: 2em auto;
-  max-width: 700px;
-  padding: 2em;
-  box-shadow: 0 8px 24px #181c2074;
+  margin-top: 40px;
 }
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
-  padding-left: 0;
-  list-style: none;
+section h2 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 10px;
 }
-.skills-list li {
-  background: #3bb4f2;
-  color: #fff;
-  border-radius: 5px;
-  padding: 0.5em 1.2em;
-  margin-bottom: 0.5em;
-  font-weight: 600;
-  font-size: 1em;
+ul {
+  list-style: disc inside;
 }
 .project {
-  margin-bottom: 2em;
+  margin-bottom: 20px;
 }
-#contact .contact-info p {
-  margin: 0.6em 0;
+.contact a {
+  color: #007bff;
+  text-decoration: none;
 }
 footer {
+  background: #343a40;
+  color: white;
   text-align: center;
-  padding: 1em 0;
-  background: #222b3a;
-  color: #fff;
-  margin-top: 2em;
-  border-radius: 0 0 12px 12px;
-}
-
-/* Responsive Design */
-@media (max-width: 700px) {
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem 2vw;
-  }
-  section {
-    padding: 1em;
-  }
-  .hero {
-    padding: 3em 1em;
-  }
+  padding: 20px 0;
+  margin-top: 40px;
 }
